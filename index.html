@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mitt Boston: En personlig rundtur</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <span class="site-logo">Mitt Boston</span>
+    <nav class="site-nav">
+      <button class="nav-btn active" data-tab="overview">Översikt</button>
+      <button class="nav-btn" data-tab="tour">Turen</button>
+      <button class="nav-btn" data-tab="map">Karta</button>
+      <button class="nav-btn" data-tab="about">Om</button>
+    </nav>
+  </header>
+
+  <!-- ÖVERSIKT -->
+  <section id="tab-overview" class="tab active">
+    <div class="hero">
+      <img src="data/mainimage.jpg" alt="Boston skyline genom höstlövverk" class="hero-img" />
+      <div class="hero-overlay">
+        <p class="hero-eyebrow">En personlig guide</p>
+        <h1 class="hero-title">Mitt&nbsp;Boston</h1>
+        <p class="hero-sub">Tolv platser som gör den här staden till min</p>
+      </div>
+      <div class="hero-scroll-hint">scrolla ↓</div>
+    </div>
+
+    <div class="overview-content">
+      <div class="overview-text">
+        <h2>Inte turistversionen.</h2>
+        <p>
+          Jag älskar Boston. Ibland påminner det mig om Stockholm, ungefär samma storlek,
+          och det är ganska lätt att ta sig runt utan bil. Men jag saknar Stockholms
+          riktiga natur och hur promenadvänligt det är där.
+        </p>
+        <p>
+          Min mamma kom från Filippinerna till New Jersey, där hon träffade min pappa
+          som hade bott där hela sitt liv. Sedan flyttade de till Boston innan de fick barn.
+          Att växa upp i Boston är den största gåvan jag har fått, tack vare utbildningen
+          och friheten att leva utan bil. Jag har fortfarande inte körkort, haha.
+        </p>
+        <p>
+          De här platserna är förstås bara en liten del av den fantastiska staden,
+          men de är mina favoritplatser, ställena där jag växte upp.
+        </p>
+        <div class="cta-row">
+          <button class="cta-btn" data-goto="tour">Börja turen →</button>
+          <button class="cta-btn cta-outline" data-goto="map">Se kartan</button>
+        </div>
+      </div>
+
+      <div class="overview-stops-preview">
+        <p class="preview-label">Tolv hållplatser</p>
+        <div class="stop-tags" id="stopTagsPreview"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TUREN -->
+  <section id="tab-tour" class="tab">
+    <div class="tour-layout">
+      <aside class="stops-sidebar">
+        <p class="sidebar-label">Tolv hållplatser</p>
+        <ol class="stops-list" id="stopsList"></ol>
+      </aside>
+      <div class="stop-detail" id="stopDetail">
+        <div class="stop-placeholder">
+          <span class="placeholder-arrow">←</span>
+          <p>Välj en hållplats för att utforska</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- KARTA -->
+  <section id="tab-map" class="tab">
+    <div class="map-wrapper">
+      <div id="map"></div>
+      <div class="map-legend">
+        <p class="map-legend-title">Håll muspekaren över en nål · Klicka för att utforska</p>
+        <div class="map-legend-items" id="mapLegend"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- OM -->
+  <section id="tab-about" class="tab">
+    <div class="about-content">
+      <h2>Om den här turen</h2>
+      <p>
+        En personlig karta över Boston, byggd kring platser som faktiskt betyder något för mig.
+        Inte kurerad för turister, inte rankad av Yelp. Bara de hörnen av staden
+        som jag promenerar genom, träffar folk i och alltid återvänder till.
+      </p>
+      <p>
+        Foton tagna av mig runt om i Boston. Byggd med vanlig HTML, CSS och JavaScript,
+        med en interaktiv karta från Leaflet och OpenStreetMap. Hostad på GitHub Pages.
+      </p>
+      <div class="about-divider"></div>
+      <p class="about-credit">Gjord med omsorg i Cambridge, MA.</p>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
