@@ -108,7 +108,7 @@ const stops = [
     name: "Carpenter Center for the Visual Arts",
     tagline: "Le Corbusiers enda byggnad i Nordamerika",
     description:
-      "Om du vill se mitt examensarbete hänger det på tredje våningen! Det här är också en av de mest intressanta byggnaderna i USA. Det är den enda Le Corbusier designade på nordamerikansk mark. Den diagonala rampen som skär genom byggnaden är typisk Le Corbusier, radikal, funktionell och helt ointresserad av konventioner.",
+      "Om du vill se mitt examensarbete hänger det på tredje våningen! Det här är också en av de mest intressanta byggnaderna i USA. Det är den enda Le Corbusier designade på nordamerikansk mark. Den diagonala rampen som skär genom byggnaden är typisk av Le Corbusier",
     // Real photo: east view of CCVA Harvard (Wikimedia Commons, confirmed URL)
     image: "https://upload.wikimedia.org/wikipedia/commons/5/53/2023-0323-Harvard-Carpenter_Center_for_the_Visual_Arts-02-East_view.jpg",
     lat: 42.3742, lng: -71.1147
