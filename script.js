@@ -20,7 +20,7 @@ const stops = [
     description:
       "Det här är min lyckliga plats. Det är ett litet område med kullar och skog som är skyddad från ljus- och ljudföroreningar så gott det går. Jag går dit för att tänka och promenera, och ibland festa när vi var yngre. Arboretum ägs egentligen av Harvard, men det är kopplat till ett annat och större naturområde som heter Urban Wild. Det är mer vildvuxet och mer som en riktig skog, och roligt att göra en lättare vandring i.",
     // Personal photo
-    image: "data/arboretum.jpg",
+    image: "arboretum.jpg",
     lat: 42.3006, lng: -71.1286
   },
   {
@@ -30,7 +30,7 @@ const stops = [
     description:
       "Det här är min gymnasieskola, mitt i Longwood Medical Area nära Harvard. Det var ett tryggt område men en väldigt speciell skola. Skolan var överfull och intensiv, men jag träffade så många coola människor som trauma-bondade med mig.",
     // Personal photo
-    image: "data/boston-latin.webp",
+    image: "boston-latin.webp",
     lat: 42.3372, lng: -71.0988
   },
   {
@@ -70,7 +70,7 @@ const stops = [
     description:
       "Efter skolan brukade jag gå till Longwood Galleria, som känns som att det fastnade på 1990-talet. Det är ett matgalleria inuti sjukhuskomplexet med Dunkin' och Charley's och andra lunchställen. Tusentals sjukvårdsarbetare äter där varje dag, utan att någon utanför området vet om det.",
     // Personal photo
-    image: "data/longwood-galleria.jpg",
+    image: "longwood-galleria.jpg",
     lat: 42.3364, lng: -71.1061
   },
   {
@@ -80,7 +80,7 @@ const stops = [
     description:
       "Brookline Village ligger tekniskt sett inte i Boston. Brookline är en egen kommun men det omges helt av staden och känns inbyggt i den. Min pappa jobbade på Trader Joe's här, så jag tillbringade mycket tid här när jag växte upp. Det finns en lång gata med butiker och fin arkitektur.",
     // Real photo: Brookline Village Green Line station (Wikimedia Commons)
-    image: "data/brookline.webp",
+    image: "brookline.webp",
     lat: 42.3316, lng: -71.1213
   },
   {
@@ -90,7 +90,7 @@ const stops = [
     description:
       "BU sträcker sig längs Commonwealth Avenue i vad som känns som miltals, med Charles River på ena sidan och gröna linjen på den andra. Det är ett av de största privata universiteten i landet och campus är bara staden. Inga murar, inga grindar, bara byggnader inbyggda i gatunätet.",
     // Real photo: BU Bridge over Charles River (Wikimedia Commons)
-    image: "data/bu.jpg",
+    image: "bu.jpg",
     lat: 42.3505, lng: -71.1054
   },
   {
@@ -100,7 +100,7 @@ const stops = [
     description:
       "Det här är ett område där jag tillbringade mycket tid som tonåring. Det finns bättre ställen att äta och hänga på eftersom invånarna är yngre och det finns ett stort vietnamesiskt område med fantastisk mat.",
     // Real photo: JFK Presidential Library on Columbia Point, Dorchester (Wikimedia Commons)
-    image: "data/dorchester.jpg",
+    image: "dorchester.jpg",
     lat: 42.3025, lng: -71.0670
   },
   {
@@ -120,7 +120,7 @@ const stops = [
     description:
       "Den här isbanan i North End är min favoritisbana i staden. Den ligger precis vid Charles River och man kan se vattnet och Charlestown från fönstren när man åker skridskor. Den är öppen för allmänheten enligt ett strängt schema men den är gratis och så rolig att besöka med vänner. Det var här jag skadade mig riktigt illa och fick ett blått öga en gång, men det är fortfarande en av mina favoritplatser.",
     // Real photo: North End Boston waterfront (Wikimedia Commons)
-    image: "data/steriti.jpg",
+    image: "steriti.jpg",
     lat: 42.3653, lng: -71.0547
   }
 ];
